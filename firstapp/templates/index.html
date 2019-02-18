@@ -1,0 +1,12 @@
+﻿{% extends "base_generic.html" %}
+{% block content %}
+<h1>Домашняя страница сайта колледжа</h1>
+<p>Добро пожаловать в наше первое Web- приложение!!</p>
+<h2>Динамическое содержимое</h2>
+<p>В колледже представлено следущее количество:</p>
+<ul>
+<li><strong>Курсов:</strong> {{ num_course }}</li>
+<li><strong>Преподавателей:</strong> {{ num_teacher }}</li>
+<li><strong>Факультетов:</strong> {{ num_faculty }}</li>
+</ul>
+{% endblock %}
